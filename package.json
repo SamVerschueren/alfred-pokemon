@@ -1,0 +1,39 @@
+{
+  "name": "alfred-pokemon",
+  "version": "0.0.0",
+  "description": "Alfred workflow to search pokemons",
+  "license": "MIT",
+  "repository": "SamVerschueren/alfred-pokemon",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.11.0",
+    "pokemon": "^2.2.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.2",
+    "ava": "^3.15.0",
+    "xo": "^0.39.1"
+  }
+}

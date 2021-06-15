@@ -1,0 +1,7 @@
+{
+	/**
+	 * Language code to retrieve the Pokémon for.
+	 * The available languages can be found at https://github.com/sindresorhus/pokemon#supported-languages.
+	 */
+	"language": "en"
+}
