@@ -2,7 +2,7 @@
 const test = require('ava');
 const alfyTest = require('alfy-test');
 
-test('default', async t => {
+test('default language should be english', async t => {
 	const alfy = alfyTest();
 	const result = await alfy('mew');
 
@@ -22,7 +22,7 @@ test('default', async t => {
 	]);
 });
 
-test.failing('de', async t => {
+test('setting user configuration language to german', async t => {
 	const alfy = alfyTest({
 		userConfig: {
 			language: 'de'

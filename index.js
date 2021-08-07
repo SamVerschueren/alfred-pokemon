@@ -3,7 +3,7 @@ const alfy = require('alfy');
 const pokemon = require('pokemon');
 
 // Grab the language from the user config
-const language = 'en'; // Alfy.userConfig.get('language', 'en');
+const language = alfy.userConfig.get('language', 'en');
 
 const pokemonList = pokemon
 	.all(language)
